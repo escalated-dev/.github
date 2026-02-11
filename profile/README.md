@@ -9,7 +9,7 @@
 
 ## 🌐 Vision
 
-Escalated is a **framework-native embeddable help desk platform** designed to eliminate external ticketing silos by putting support systems directly into your existing application ecosystem. Rather than relying on standalone SaaS tools with separate data stores and authentication, Escalated integrates natively with your models, DB, and deployment pipeline so your support experience inherits your architecture and security model. :contentReference[oaicite:0]{index=0}
+Escalated is a **framework-native embeddable help desk platform** designed to eliminate external ticketing silos by putting support systems directly into your existing application ecosystem. Rather than relying on standalone SaaS tools with separate data stores and authentication, Escalated integrates natively with your models, DB, and deployment pipeline so your support experience inherits your architecture and security model.
 
 ---
 
@@ -24,7 +24,7 @@ Escalated is an **open-source, MIT-licensed support desk system** that lives ins
 - Email notification and webhook integrations via native framework tooling
 - A shared UI powered by Inertia.js that feels consistent across stacks :contentReference[oaicite:1]{index=1}
 
-Your data stays yours — **no separate databases, no external auth, no “shadow system.”** :contentReference[oaicite:2]{index=2}
+Your data stays yours — **no separate databases, no external auth, no “shadow system.”**
 
 ---
 
@@ -36,7 +36,7 @@ Escalated delivers **idiomatic integrations** for multiple ecosystems:
 - **Ruby on Rails** — Rails engine + ActiveRecord
 - **Django** — Native Django app integration
 - **AdonisJS** — TypeScript-first package with Lucid models
-- **Filament** — Admin panel resources and widgets :contentReference[oaicite:3]{index=3}
+- **Filament** — Admin panel resources and widgets
 
 ---
 
