@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">Escalated</h1>
+
 Support tickets, built **into your application** — not beside it.
 
 ---
