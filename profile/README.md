@@ -24,7 +24,7 @@ Escalated is an **open-source, MIT-licensed support desk system** that lives ins
 - Assignment, ownership, and queue management
 - Flexible tagging, filters, and organization
 - Email notification and webhook integrations via native framework tooling
-- A shared UI powered by Inertia.js that feels consistent across stacks :contentReference[oaicite:1]{index=1}
+- A shared UI powered by Inertia.js that feels consistent across stacks
 
 Your data stays yours — **no separate databases, no external auth, no “shadow system.”**
 
