@@ -3,8 +3,9 @@
 </p>
 
 <h1 align="center">Escalated</h1>
-
-Support tickets, built **into your application** — not beside it.
+<p align="center">
+  Support tickets, built <strong>into your application</strong> — not beside it.
+</p>
 
 ---
 
