@@ -50,3 +50,5 @@ Installation is simple — add the Escalated adapter for your stack and run migr
 composer require escalated-dev/escalated-laravel
 bundle add escalated-rails
 pip install escalated-django
+npm install @escalated-dev/escalated-adonis
+composer require escalated-dev/escalated-laravel escalated-dev/escalated-filament
