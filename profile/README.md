@@ -7,6 +7,10 @@
   Support tickets, built <strong>into your application</strong> — not beside it.
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/profile/demo.gif" alt="Escalated demo" width="800" />
+</p>
+
 ---
 
 ## 🌐 Vision
