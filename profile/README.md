@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="https://escalated.dev/brand/logo-icon-gradient.svg" alt="Escalated Logo" width="128" height="128" />
+  <a href="https://escalated.dev">
+    <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/og.png" alt="Escalated — support tickets, built into your app" width="840" />
+  </a>
 </p>
 
-<h1 align="center">Escalated</h1>
 <p align="center">
   Support tickets, built <strong>into your application</strong> — not beside it.
 </p>
