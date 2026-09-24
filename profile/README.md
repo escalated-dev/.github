@@ -9,6 +9,12 @@
 </p>
 
 <p align="center">
+  <a href="https://hits.sh/github.com/escalated-dev/">
+    <img src="https://hits.sh/github.com/escalated-dev.svg?style=flat&label=views&color=007ec6" alt="Views" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/profile/demo.gif" alt="Escalated demo" width="800" />
 </p>
 
