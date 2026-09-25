@@ -63,3 +63,7 @@ bundle add escalated-rails
 pip install escalated-django
 npm install @escalated-dev/escalated-adonis
 composer require escalated-dev/escalated-laravel escalated-dev/escalated-filament
+
+## License
+
+MIT - Copyright (c) Escalated.dev. See [LICENSE](https://github.com/escalated-dev/.github/blob/HEAD/LICENSE).
