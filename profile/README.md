@@ -1,70 +1,90 @@
 <p align="center">
   <a href="https://escalated.dev">
-    <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/og.png" alt="Escalated — support tickets, built into your app" width="840" />
+    <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/og.png" alt="Escalated: support tickets, built into your app" width="840">
   </a>
 </p>
 
 <p align="center">
-  Support tickets, built <strong>into your application</strong> — not beside it.
+  An open-source helpdesk that runs inside your own app, on your database, with your users.<br>
+  Tickets, SLAs, escalation rules, an agent inbox and a customer portal, for 12 backend frameworks.
 </p>
 
 <p align="center">
-  <a href="https://hits.sh/github.com/escalated-dev/">
-    <img src="https://hits.sh/github.com/escalated-dev.svg?style=flat&label=views&color=007ec6" alt="Views" />
-  </a>
+  <a href="https://escalated.dev"><b>Website</b></a> ·
+  <a href="https://escalated.dev/docs"><b>Docs</b></a> ·
+  <a href="https://escalated.dev/cloud"><b>Cloud</b></a> ·
+  <a href="https://github.com/escalated-dev/escalated"><b>Frontend</b></a>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/.github/profile/demo.gif" alt="Escalated demo" width="800" />
-</p>
+<br>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/escalated-dev/escalated/main/docs/assets/readme/inbox-dark.png">
+  <img src="https://raw.githubusercontent.com/escalated-dev/escalated/main/docs/assets/readme/inbox-light.png" alt="The Escalated agent inbox: saved views with counts, SLA countdowns and priorities on every ticket" width="100%">
+</picture>
 
-## 🌐 Vision
+### Pick your backend
 
-Escalated is a **framework-native embeddable help desk platform** designed to eliminate external ticketing silos by putting support systems directly into your existing application ecosystem. Rather than relying on standalone SaaS tools with separate data stores and authentication, Escalated integrates natively with your models, DB, and deployment pipeline so your support experience inherits your architecture and security model.
+<table>
+<tr>
+<td width="33%" valign="top">
 
----
+**PHP**
+- [Laravel](https://github.com/escalated-dev/escalated-laravel)
+- [Symfony](https://github.com/escalated-dev/escalated-symfony)
+- [WordPress](https://github.com/escalated-dev/escalated-wordpress)
+- [Filament](https://github.com/escalated-dev/escalated-filament)
 
-## 💡 What Escalated Is
+</td>
+<td width="33%" valign="top">
 
-Escalated is an **open-source, MIT-licensed support desk system** that lives inside your codebase and app workflows — offering:
+**JavaScript and TypeScript**
+- [NestJS](https://github.com/escalated-dev/escalated-nestjs)
+- [AdonisJS](https://github.com/escalated-dev/escalated-adonis)
 
-- End-to-end ticketing with threaded conversations
-- Statuses, priorities, SLAs, and escalation rules
-- Assignment, ownership, and queue management
-- Flexible tagging, filters, and organization
-- Email notification and webhook integrations via native framework tooling
-- A shared UI powered by Inertia.js that feels consistent across stacks
+**Ruby and Python**
+- [Rails](https://github.com/escalated-dev/escalated-rails)
+- [Django](https://github.com/escalated-dev/escalated-django)
 
-Your data stays yours — **no separate databases, no external auth, no “shadow system.”**
+</td>
+<td width="33%" valign="top">
 
----
+**Elixir, Go, .NET and Java**
+- [Phoenix](https://github.com/escalated-dev/escalated-phoenix)
+- [Go](https://github.com/escalated-dev/escalated-go)
+- [.NET](https://github.com/escalated-dev/escalated-dotnet)
+- [Spring](https://github.com/escalated-dev/escalated-spring)
 
-## 🛠️ Framework Support & Integrations
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
-Escalated delivers **idiomatic integrations** for multiple ecosystems:
+**Mobile**
+- [React Native](https://github.com/escalated-dev/escalated-react-native)
+- [Flutter](https://github.com/escalated-dev/escalated-flutter)
 
-- **Laravel** — Eloquent models, migrations, artisan commands
-- **Ruby on Rails** — Rails engine + ActiveRecord
-- **Django** — Native Django app integration
-- **AdonisJS** — TypeScript-first package with Lucid models
-- **Filament** — Admin panel resources and widgets
+</td>
+<td width="33%" valign="top">
 
----
+**Extend it**
+- [Plugin SDK](https://github.com/escalated-dev/escalated-plugin-sdk)
+- [Plugin runtime](https://github.com/escalated-dev/escalated-plugin-runtime)
+- Plugins for [Slack](https://github.com/escalated-dev/escalated-plugin-slack), [Jira](https://github.com/escalated-dev/escalated-plugin-jira), [NPS](https://github.com/escalated-dev/escalated-plugin-nps)
 
-## 🚀 Getting Started
+</td>
+<td width="33%" valign="top">
 
-Installation is simple — add the Escalated adapter for your stack and run migrations:
+**Move from another helpdesk**
+- [Zendesk](https://github.com/escalated-dev/escalated-plugin-import-zendesk)
+- [Freshdesk](https://github.com/escalated-dev/escalated-plugin-import-freshdesk)
+- [Help Scout](https://github.com/escalated-dev/escalated-plugin-import-helpscout)
+- [Intercom](https://github.com/escalated-dev/escalated-plugin-import-intercom)
 
-```bash
-composer require escalated-dev/escalated-laravel
-bundle add escalated-rails
-pip install escalated-django
-npm install @escalated-dev/escalated-adonis
-composer require escalated-dev/escalated-laravel escalated-dev/escalated-filament
-```
+</td>
+</tr>
+</table>
 
-## License
+The backends share one Vue 3 + Inertia interface from [escalated](https://github.com/escalated-dev/escalated), so agents get the same inbox whichever stack you run (WordPress and Filament use their own admin screens). Developer guides, the glossary and design decisions live in [escalated-developer-context](https://github.com/escalated-dev/escalated-developer-context).
 
-MIT - Copyright (c) Escalated.dev. See [LICENSE](https://github.com/escalated-dev/.github/blob/HEAD/LICENSE).
+<sub>The core and every port are MIT licensed.</sub>
